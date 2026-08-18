@@ -13,8 +13,7 @@ Desde que ingresa un equipo al taller hasta que la orden se cierra y se factura.
 ![MSW](https://img.shields.io/badge/MSW-API%20simulada-FF6A33?logo=mockserviceworker&logoColor=white)
 ![Tests](https://img.shields.io/badge/tests-44%20pasando-3FB950)
 
-<!-- Tras publicar en Netlify, reemplazar la almohadilla por la URL del demo. -->
-**[▶ Ver demo en vivo](#)** · Entra como jefe de taller, recepción o técnico y compara
+**[▶ Ver demo en vivo](https://maestranza-demo.netlify.app/)** · Entra como jefe de taller, recepción o técnico y compara
 
 ![Panel de operación](docs/capturas/panel.png)
 
