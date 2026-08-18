@@ -1,0 +1,14 @@
+# Cabeceras para despliegues por Netlify Drop (se copia a dist/ en el build).
+# Duplica lo declarado en netlify.toml, que solo aplica en despliegues desde Git.
+
+/mockServiceWorker.js
+  Cache-Control: no-cache, no-store, must-revalidate
+  Service-Worker-Allowed: /
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN

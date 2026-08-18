@@ -1,0 +1,7 @@
+# Aplicación de una sola página: toda ruta se resuelve en el cliente.
+# Sin esto, recargar /ordenes/ot-119 devolvería 404.
+#
+# Este archivo se copia a dist/ en el build, así funciona también al publicar
+# arrastrando la carpeta a Netlify Drop, donde el netlify.toml de la raíz del
+# repositorio no se aplica.
+/*  /index.html  200
