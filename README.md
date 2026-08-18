@@ -11,10 +11,12 @@ Desde que ingresa un equipo al taller hasta que la orden se cierra y se factura.
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-06B6D4?logo=tailwindcss&logoColor=white)
 ![MSW](https://img.shields.io/badge/MSW-API%20simulada-FF6A33?logo=mockserviceworker&logoColor=white)
-![Tests](https://img.shields.io/badge/tests-41%20pasando-3FB950)
+![Tests](https://img.shields.io/badge/tests-44%20pasando-3FB950)
 
 <!-- Tras publicar en Netlify, reemplazar la almohadilla por la URL del demo. -->
 **[▶ Ver demo en vivo](#)** · Entra como jefe de taller, recepción o técnico y compara
+
+![Panel de operación](docs/capturas/panel.png)
 
 </div>
 
@@ -36,6 +38,22 @@ errores—, y migrar a uno consiste en borrar una carpeta.
 | Indicadores de operación | Panel con ventas, tiempo de ciclo, carga por técnico y órdenes fuera de plazo |
 | Validación de negocio | RUT con dígito verificador, unicidad, coherencia cliente–equipo, IVA 19 % |
 | Estado en la URL | Filtros y paginación compartibles; recargar mantiene la vista |
+
+### Listado de órdenes
+
+Filtros combinables sobre 260 órdenes, todos reflejados en la URL. Las fechas comprometidas
+que ya vencieron se marcan en rojo, y la columna de totales solo existe para quien tiene
+permiso de ver montos.
+
+![Listado de órdenes de trabajo](docs/capturas/ordenes.png)
+
+### Ficha de la orden
+
+Las acciones del encabezado no son fijas: se calculan según el estado actual y el rol de quien
+mira. La bitácora de la derecha registra cada transición con autor, rol, fecha y nota, y no se
+puede editar —sin eso, la trazabilidad de un taller no vale nada.
+
+![Ficha de una orden de trabajo con su bitácora](docs/capturas/ficha.png)
 
 ## Cuentas de demostración
 
